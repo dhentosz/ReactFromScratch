@@ -1,5 +1,9 @@
 const path = require("path");
 
+// set up for development only so far.
+
+// need to add css/module.css handling.
+
 module.exports = {
   entry: "./src/index.js",
   mode: "development",
@@ -18,6 +22,7 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx", ".json"],
   },
+
   module: {
     rules: [
       {
